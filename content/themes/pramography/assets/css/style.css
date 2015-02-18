@@ -1,0 +1,22 @@
+@import "skeleton.css";
+@import "normalize.css";
+@import "animate.css";
+@import "ionicons.min.css";
+
+/* Add subtle load-in animation for content on the home page */
+.page-title {
+    -webkit-animation: fade-in-down 0.6s;
+    animation: fade-in-down 0.6s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+.page-description {
+    -webkit-animation: fade-in-down 0.9s;
+    animation: fade-in-down 0.9s;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.ion-heart {
+  color: pink;
+}
