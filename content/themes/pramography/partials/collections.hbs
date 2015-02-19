@@ -1,0 +1,10 @@
+<div class="row">
+  <center>
+    <img src="{{asset "images/categories.png"}}" class="u-max-full-width" style="width: 80%">
+    <ul class="collections">
+      {{#foreach posts}}
+        <li><a href="{{url}}">{{title}}</a></li>
+      {{/foreach}}
+    </ul>
+  </center>
+</div>

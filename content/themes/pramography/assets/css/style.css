@@ -38,6 +38,7 @@ a {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
+
 a:hover, a:focus, a:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -59,12 +60,32 @@ a:focus {
   background: transparent;
 }
 
+.logo:hover,
+.logo:focus {
+  background: transparent;
+  -webkit-animation-name: hvr-wobble-skew;
+  animation-name: hvr-wobble-skew;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
 header {
   font-family: fox__catregular;
+  text-transform: uppercase;
 }
 header a,
 footer,
-.pagination {
+.pagination,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: dilemhandwrittenmedium;
   letter-spacing: 3px;
   font-weight: bold;
@@ -75,6 +96,41 @@ footer {
 }
 
 .links {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.collections {
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 0.25rem;
+}
+
+img {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+article footer {
+  padding-top: 0px;
+}
+
+.tags {
+  content: "\f2aa";
+}
+
+.post-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
 }
