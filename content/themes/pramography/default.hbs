@@ -41,6 +41,9 @@
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
 
+    <!-- Please call pinit.js only once per page -->
+    <script type="text/javascript" async defer  data-pin-shape="round" data-pin-height="32" data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
+
     {{! The main JavaScript file for Casper }}
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
