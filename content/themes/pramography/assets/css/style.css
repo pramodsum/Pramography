@@ -145,3 +145,8 @@ margin-bottom: 0;
   position: relative;
   width: 25%;
 }
+
+a.PIN_1424464486119_pin_it_button_en_32_red_round.PIN_1424464486119_pin_it_button_floating_en_32_red_round:hover,
+a.PIN_1424464486119_pin_it_button_en_32_red_round.PIN_1424464486119_pin_it_button_floating_en_32_red_round:focus {
+  background: transparent;
+}
