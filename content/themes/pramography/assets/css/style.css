@@ -7,75 +7,75 @@
 
 /* Add subtle load-in animation for content on the home page */
 .page-title {
-    -webkit-animation: fade-in-down 0.6s;
-    animation: fade-in-down 0.6s;
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
+ -webkit-animation: fade-in-down 0.6s;
+ animation: fade-in-down 0.6s;
+ -webkit-animation-delay: 0.2s;
+ animation-delay: 0.2s;
 }
 .page-description {
-    -webkit-animation: fade-in-down 0.9s;
-    animation: fade-in-down 0.9s;
-    -webkit-animation-delay: 0.1s;
-    animation-delay: 0.1s;
+ -webkit-animation: fade-in-down 0.9s;
+ animation: fade-in-down 0.9s;
+ -webkit-animation-delay: 0.1s;
+ animation-delay: 0.1s;
 }
 
 .ion-heart {
-  color: pink;
+ color: pink;
 }
 
 /*added grow effect from hover.css as default to links*/
 a {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+ display: inline-block;
+ vertical-align: middle;
+ -webkit-transform: translateZ(0);
+ transform: translateZ(0);
+ box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+ -webkit-backface-visibility: hidden;
+ backface-visibility: hidden;
+ -moz-osx-font-smoothing: grayscale;
+ -webkit-transition-duration: 0.3s;
+ transition-duration: 0.3s;
+ -webkit-transition-property: transform;
+ transition-property: transform;
 }
 
 a:hover, a:focus, a:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+ -webkit-transform: scale(1.1);
+ transform: scale(1.1);
 }
 
 a {
-  text-decoration: none;
-  color: black;
+ text-decoration: none;
+ color: black;
 }
 
 a:hover,
 a:focus {
-  background: #cdf3ed;
-  color: black;
+ background: #cdf3ed;
+ color: black;
 }
 
 .social a:hover,
 .social a:focus {
-  background: transparent;
+ background: transparent;
 }
 
 .logo:hover,
 .logo:focus {
-  background: transparent;
-  -webkit-animation-name: hvr-wobble-skew;
-  animation-name: hvr-wobble-skew;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+ background: transparent;
+ -webkit-animation-name: hvr-wobble-skew;
+ animation-name: hvr-wobble-skew;
+ -webkit-animation-duration: 1s;
+ animation-duration: 1s;
+ -webkit-animation-timing-function: ease-in-out;
+ animation-timing-function: ease-in-out;
+ -webkit-animation-iteration-count: 1;
+ animation-iteration-count: 1;
 }
 
 header {
-  font-family: fox__catregular;
-  text-transform: uppercase;
+ font-family: fox__catregular;
+ text-transform: uppercase;
 }
 header a,
 footer,
@@ -86,43 +86,39 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: dilemhandwrittenmedium;
-  letter-spacing: 3px;
-  font-weight: bold;
+ font-family: dilemhandwrittenmedium;
+ letter-spacing: 3px;
+ font-weight: bold;
 }
 
 footer {
-  padding-top: 50px;
+ padding-top: 50px;
 }
 
 .links {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.collections {
-  font-size: 18px;
+ padding-top: 10px;
+ padding-bottom: 10px;
 }
 
 ul {
-  list-style-type: none;
+ list-style-type: none;
 }
 
 ul li {
-  margin-bottom: 0.25rem;
+ margin-bottom: 0.25rem;
 }
 
 img {
-  max-width: 100%;
-  box-sizing: border-box;
+ max-width: 100%;
+ box-sizing: border-box;
 }
 
 article footer {
-  padding-top: 0px;
+ padding-top: 0px;
 }
 
 .tags {
-  content: "\f2aa";
+ content: "\f2aa";
 }
 
 .post-title,
@@ -132,7 +128,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 1rem;
+ margin-bottom: 1rem;
 }
 
 .social ul {
@@ -140,87 +136,87 @@ text-align: center;
 margin-bottom: 0;
 }
 .social ul li {
-  text-align: left;
-  display: inline-block;
-  position: relative;
-  width: 25%;
+ text-align: left;
+ display: inline-block;
+ position: relative;
+ width: 25%;
 }
 
 #accordion {
-    list-style: none;
-    padding: 0 0 0 0;
-    /*width: 170px;*/
+ list-style: none;
+ padding: 0 0 0 0;
+ /*width: 170px;*/
 }
 ul#accordion {
-  margin-bottom: 0;
+ margin-bottom: 0;
 }
 #accordion ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+ list-style: none;
+ padding: 0;
+ margin: 0;
 }
 #accordion ul{
-    display: none;
+ display: none;
 }
 #accordion ul li {
-    font-weight: normal;
-    cursor: auto;
-    background-color: #fff;
-    padding: 0 0 0 7px;
-    width: 100%;
+ font-weight: normal;
+ cursor: auto;
+ background-color: #fff;
+ padding: 0 0 0 7px;
+ width: 100%;
 }
 #accordion a {
-    text-decoration: none;
-    margin: 0 auto;
-    width: 100%;
+ text-decoration: none;
+ margin: 0 auto;
+ width: 100%;
 }
 
 #mc_embed_signup{
-  background:#fff; 
-  clear:left; 
-  font:16px dilemhandwrittenmedium; 
+ background:#fff; 
+ clear:left; 
+ font:16px dilemhandwrittenmedium; 
 }
 
 #mc_embed_signup h2 {
-    margin: 0;
+ margin: 0;
 }
 
 #mc_embed_signup .indicates-required {
-    font-size :14px;
-    line-height: 0.5;
+ font-size :14px;
+ line-height: 0.5;
 }
 
 #mc_embed_signup .mc-field-group {
-    padding-bottom: 1%;
+ padding-bottom: 1%;
 }
 
 #mc_embed_signup input {
-    font-family: Raleway;
+ font-family: Raleway;
 }
 
 #mc_embed_signup .button {
-    background: #cdf3ed;
-    color: black;
+ background: #cdf3ed;
+ color: black;
 }
 
 #mc_embed_signup .button:hover {
-    background: pink;
-    color: white;
+ background: pink;
+ color: white;
 }
 
 #mc_embed_signup form {
-    margin-bottom: 0;
-    padding-bottom: 0;
+ margin-bottom: 0;
+ padding-bottom: 0;
 }
 
 #mc_embed_signup h2 {
-    font-weight: bolder;
+ font-weight: bolder;
 }
 
 .subscription.button {
-  background: #cdf3ed;
+ background: #cdf3ed;
 }
 
 #accordion a {
-  margin-bottom: 1rem;   
+ margin-bottom: 1rem; 
 }

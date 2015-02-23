@@ -11,9 +11,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'fox__catregular';
     src: url('../fonts/Fox & Cat-webfont.eot');
@@ -25,4 +22,22 @@
     font-weight: normal;
     font-style: normal;
 
+}
+
+@media all and (min-width: 50px) {
+  .collections, .links {
+    font-size:1.4em;
+  }
+}
+    
+@media all and (min-width: 545px) {
+  .collections, .links {
+    font-size:1.0em;
+  }
+}
+    
+@media all and (min-width: 700px) {
+  .collections, .links {
+    font-size:1.4em;
+  }
 }
