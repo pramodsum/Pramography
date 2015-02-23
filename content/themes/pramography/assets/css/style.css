@@ -216,3 +216,11 @@ ul#accordion {
 #mc_embed_signup h2 {
     font-weight: bolder;
 }
+
+.subscription.button {
+  background: #cdf3ed;
+}
+
+#accordion a {
+  margin-bottom: 1rem;   
+}
