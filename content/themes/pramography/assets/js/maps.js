@@ -11,7 +11,8 @@ var locations = [
   ['San Francisco, CA', "", 37.7833, -122.4167],
   ['Ann Arbor, MI', "http://pramography.herokuapp.com/ann-arbor/", 42.2814, -83.7483],
   ['Davis, CA', "http://pramography.herokuapp.com/davis-ca/", 38.5539, -121.7381],
-  ['Cancun, Mexico', "", 21.1606, -86.8475]
+  ['Cancun, Mexico', "", 21.1606, -86.8475],
+  ['Farmington Hills, MI', "http://pramography.herokuapp.com/sara-hamid-engagement-photo-shoot/", 42.474181, -83.379822]
 ];
 
 var map = new google.maps.Map(document.getElementById('map'), {
